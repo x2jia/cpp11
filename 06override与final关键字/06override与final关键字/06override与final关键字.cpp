@@ -22,13 +22,17 @@ public:
     }
 };
 
-class A : public Derived {
+class A final : public Derived {
 public:
     // 表示重载的最终版本
     virtual void func() final {
         cout << "A::func" << endl;
     }
 };
+
+//class A2 : public A {
+//
+//};
 
 int main()
 {

@@ -10,7 +10,7 @@ long long
 委托构造
 override与final
 右尖括号
-for语句
+改进的for循环
 constexpr
 auto与decltype
 RTTI
@@ -22,7 +22,7 @@ noexcept
 friend改进
 外部模板
 右值引用移动语义
-完美转发
+右值引用完美转发
 可执行对象封装器
 lambda表达式、C++闭包
 原子类型、内存模型
@@ -41,7 +41,7 @@ Unicode支持
 
 Part2
 
-C++11实现Chrome的线程模型
+C++11实现Chrome的多线程模型
 
 
 Part3
